@@ -1,2 +1,2 @@
 # ML-Project-Tutorial
-Example of how to manage an ML Project. 
+Example of how to develop and manage an ML Project. 

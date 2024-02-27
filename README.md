@@ -1,6 +1,6 @@
 # Tutorial Guide:
 
-## ML-Project-Tutorial: ML_Project_POC_Tutorial.ipynb
+## ML-Project-Tutorial: 
 A simple documented example of how to create an ML Project Workflow and how to manage a team to develop it over time. 
 
 ### ML Work Flow
@@ -8,7 +8,7 @@ A simple documented example of how to create an ML Project Workflow and how to m
   - Identify and Document the Scope of the Project's Problem Space and it's qualities
   - Identify and Document the Scope of the Project's Solution Space and it's qualities
 2. Project Env Prep
-  - Install and Import libs
+  - Install if needed and Import libs
   - Remove or Archive any previous Training Session's Files before each New Training Session
 3. Downloading/Querrying and Loading Data
 4. Data Exploration 
@@ -21,14 +21,21 @@ A simple documented example of how to create an ML Project Workflow and how to m
   - Training Settings Selection
   - Monitoring and Visualizations
 7. Data drift and A/B Testing for QA
-8. Model Serving and Monitoring
+  - test all subsets of val or test set data that you are concerned about the average quality of the end user experience. 
+8. Model Serving and Production Monitoring
+  - MLOps
+  - CICD
+  - visualizations
+  - email alerts
 
-### Initial Project Repo Setup and Development Steps:
+### Initial ML Project Development Setup Steps: See file ML_Project_POC_Tutorial.ipynb
 1. Hard code a bare-bones proof-of-concept (POC) for an ML Project, within the identified project scope, in a single jupyter notebook file.
 2. Go back and Define functions for repeatable lines of code and define variables for controling previously hardcoded settings while improving naming conventions.
 3. Move functions into a seperate file and import them into the main file to make it simpler.
 4. Add Documentation and make a pull request
-5. Add more Features documented in the repo's issues and tracked in the project. 
+### Development Steps for AGILE Sprints:
+1. Select an issue in the project to work on from the current Sprint and a assign it to yourself to get email updates.
+2. Add or debug the documented feature  Features documented in the repo's issues over time. 
 
 ### Project Management Steps: ML Project Tutorial
 https://github.com/orgs/mytest12345678/projects/2

@@ -1,7 +1,6 @@
 # Tutorial Guide:
-These tutorials were made to showcase select skills.
 
-## ML-Project-Tutorial: ML_Project_POC_Tutorial.ipynb
+## ML-Project-Tutorial: ML_Project_POC_Tutorial.ipynb 
 A simple documented example of how to create an ML Repo by writing a bare-bones proof-of-concept (POC), within the identified project scope, in a single jupyter notebook file.
 ### ML Work Flow
 1. ML Project Scoping
@@ -46,7 +45,7 @@ A simple documented example of how to create an ML Repo by writing a bare-bones 
     - Identify what steps they could taken to better understand the problem and eventually come up with a similar viable solution to the problem by seaking out the aswers to a set of well framed questions online.
     - Then, using all that information, ask questions to lead them towards the answer without just giving them the solution.
     - Time spent mentoring juniors is an investment into their potential and never a waste of time if done properly.
-### Development Steps for a project with AGILE Sprints:
+### Development loop for a project with AGILE Sprints:
 1. Select an issue in the project to work on from the current Sprint and a assign it to yourself to get email updates.
 2. Add or debug the documented feature in the issues with commits to a seperate branch.
 3. Make a pull request for the seperate branch and link it to the issue.
